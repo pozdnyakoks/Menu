@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* overflow: hidden; */
+    margin: 0;
+    font-family: 'Smythe', cursive;
+    width: 600px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+header {
+    background-image: url('./images/burger.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 46px;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.desc {
+    font-size: 22.4px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+main {
+    padding: 67px 46px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border-bottom: 1px solid #D2D2D2;
+    padding-bottom: 30px;
+    margin-bottom: 45px;
+}
+
+.add-btn {
+    font-family: 'Inter';
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 24px;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 100%;
+    padding: 11px 14px;
+    text-align: center;
+    color: #3C3C3C;
+    margin-left: auto;
+}
+
+.item-img {
+    margin-right: 31px;
+}
+
+.item-title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.item-desc {
+    margin: 8px 0;
+    line-height: 24px;
+    color: #8B8B8B;
+}
+
+.item-price {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.order-title {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.order-section .item-price {
+    margin-left: auto;
+}
+
+.order-section .item-title {
+    margin-right: 13px;
+}
+
+.order-section .list-item {
+    border: none;
+    padding: 0;
+    margin-bottom: 22px;
+}
+
+.order-section .list-item.total {
+    border-top: 2px solid #393333;
+    margin-top: 31px;
+    padding-top: 14px;
+}
+
+.remove-btn {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #BBBBBB;
+    border: none;
+}
+
+.list-sum {
+    margin-bottom: 53px;
+}
+
+.complete-btn {
+    background-color: #16DB99;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 18px;
+    width: 100%;
+    border: none;
+}
+
+.grateful {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 17px;
+    color: #065F46;
+
+    background-color: #ECFDF5;
+    border-radius: 3px;
+    padding: 51px 60px;
+}
+
+.modal-overlay {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.modal {
+    padding: 47px 25px 29px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 524px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.modal h2 {
+    margin-bottom: 47px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.modal-input {
+    margin-bottom: 23px;
+    display: block;
+    padding: 16px 16px 12px 26px;
+    width: 100%;
+    color: #757575;
+    border: 1px solid #757575;
+    border-radius: 4px;
+}
+
+.modal-input:last-of-type {
+    margin-bottom: 40px;
+}
